@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -10,7 +11,7 @@
   <title>Weather Dashboard</title>
 </head>
 <body>
-<header class="bg-dark text-light text-center">
+<header class="bg-primary bg-gradient text-light text-center">
   <h1>Weather Dashboard</h1>
 </header>
 <main class="container-fluid">
@@ -21,7 +22,7 @@
             <input id="city" type="text" class="form-input" />
             <button class="btn btn-primary" type="submit">Search</button>
         </form>
-        <div class="recent-search border" id="recently-searched"></div>
+        <div class="recent-search border" id="recent-search"></div>
       </div>
       <div class="col-12 col-md-9">
         <div class="row border searched-city" id="city-forecast">
@@ -40,7 +41,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script></body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
 </html>
         
   
